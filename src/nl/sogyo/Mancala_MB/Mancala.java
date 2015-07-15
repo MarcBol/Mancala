@@ -6,6 +6,7 @@ public class Mancala {
 	SpeelVakje speelVakjes = (SpeelVakje) vakjes;
 	UserInput input = new UserInput();
 	Vakje eerste = this.speelVakjes;
+	String nutteloos = "dit heeft geen nut";
 		
 	public static void main(String[] args) {
 		Mancala spel = new Mancala();
