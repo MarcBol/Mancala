@@ -96,7 +96,7 @@ public class Vakje {
 	
 	
 	
-	private boolean isSlaanUitvoerbaar() {
+	protected boolean isSlaanUitvoerbaar() {
 		if (this.stenen == 1 && tellerKalaha != 1) {
 			return true;
 		} else {

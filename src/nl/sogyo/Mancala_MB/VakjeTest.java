@@ -1,10 +1,11 @@
 package nl.sogyo.Mancala_MB;
 
 import junit.framework.TestCase;
+import nl.sogyo.Mancala_MB.*;
 
 public class VakjeTest extends TestCase {
 	
-	/*public void testVakje01() {
+	public void testVakje01() {
 		Vakje v = new SpeelVakje();
 		int resultaat = v.stenen;
 		assertEquals(13, resultaat);
@@ -99,7 +100,7 @@ public class VakjeTest extends TestCase {
 	public void testZaaien1() {
 		Vakje v = new SpeelVakje();
 		SpeelVakje s = (SpeelVakje) v;
-		s.zet();
+		s.zet(s);
 		int resultaat = v.volgende.stenen;
 		assertEquals(5, resultaat);
 	}
@@ -107,7 +108,7 @@ public class VakjeTest extends TestCase {
 	public void testZaaien2() {
 		Vakje v = new SpeelVakje();
 		SpeelVakje s = (SpeelVakje) v;
-		s.zet();
+		s.zet(s);
 		int resultaat = v.volgende.volgende.stenen;
 		assertEquals(5, resultaat);
 	}
@@ -115,7 +116,7 @@ public class VakjeTest extends TestCase {
 	public void testZaaien3() {
 		Vakje v = new SpeelVakje();
 		SpeelVakje s = (SpeelVakje) v;
-		s.zet();
+		s.zet(s);
 		int resultaat = v.volgende.volgende.volgende.stenen;
 		assertEquals(5, resultaat);
 	}
@@ -123,7 +124,7 @@ public class VakjeTest extends TestCase {
 	public void testZaaien4() {
 		Vakje v = new SpeelVakje();
 		SpeelVakje s = (SpeelVakje) v;
-		s.zet();
+		s.zet(s);
 		int resultaat = v.volgende.volgende.volgende.volgende.stenen;
 		assertEquals(5, resultaat);
 	}
@@ -131,7 +132,7 @@ public class VakjeTest extends TestCase {
 	public void testZaaien5() {
 		Vakje v = new SpeelVakje();
 		SpeelVakje s = (SpeelVakje) v;
-		s.zet();
+		s.zet(s);
 		int resultaat = v.volgende.volgende.volgende.volgende.volgende.stenen;
 		assertEquals(5, resultaat);
 	}
@@ -139,7 +140,7 @@ public class VakjeTest extends TestCase {
 	public void testZaaien6() {
 		Vakje v = new SpeelVakje();
 		SpeelVakje s = (SpeelVakje) v;
-		s.zet();
+		s.zet(s);
 		int resultaat = v.volgende.volgende.volgende.volgende.volgende.volgende.stenen;
 		assertEquals(1, resultaat);
 	}
@@ -147,7 +148,7 @@ public class VakjeTest extends TestCase {
 	public void testZaaien7() {
 		Vakje v = new SpeelVakje();
 		SpeelVakje s = (SpeelVakje) v;
-		s.zet();
+		s.zet(s);
 		int resultaat = v.volgende.volgende.volgende.volgende.volgende.volgende.volgende.stenen;
 		assertEquals(5, resultaat);
 	}
@@ -155,7 +156,7 @@ public class VakjeTest extends TestCase {
 	public void testZaaien8() {
 		Vakje v = new SpeelVakje();
 		SpeelVakje s = (SpeelVakje) v;
-		s.zet();
+		s.zet(s);
 		int resultaat = v.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.stenen;
 		assertEquals(5, resultaat);
 	}
@@ -163,7 +164,7 @@ public class VakjeTest extends TestCase {
 	public void testZaaien9() {
 		Vakje v = new SpeelVakje();
 		SpeelVakje s = (SpeelVakje) v;
-		s.zet();
+		s.zet(s);
 		int resultaat = v.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.stenen;
 		assertEquals(5, resultaat);
 	}
@@ -171,7 +172,7 @@ public class VakjeTest extends TestCase {
 	public void testZaaien10() {
 		Vakje v = new SpeelVakje();
 		SpeelVakje s = (SpeelVakje) v;
-		s.zet();
+		s.zet(s);
 		int resultaat = v.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.stenen;
 		assertEquals(5, resultaat);
 	}
@@ -179,7 +180,7 @@ public class VakjeTest extends TestCase {
 	public void testZaaien11() {
 		Vakje v = new SpeelVakje();
 		SpeelVakje s = (SpeelVakje) v;
-		s.zet();
+		s.zet(s);
 		int resultaat = v.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.stenen;
 		assertEquals(5, resultaat);
 	}
@@ -187,7 +188,7 @@ public class VakjeTest extends TestCase {
 	public void testZaaien12() {
 		Vakje v = new SpeelVakje();
 		SpeelVakje s = (SpeelVakje) v;
-		s.zet();
+		s.zet(s);
 		int resultaat = v.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.stenen;
 		assertEquals(5, resultaat);
 	}
@@ -195,7 +196,7 @@ public class VakjeTest extends TestCase {
 	public void testZaaien13() {
 		Vakje v = new SpeelVakje();
 		SpeelVakje s = (SpeelVakje) v;
-		s.zet();
+		s.zet(s);
 		int resultaat = v.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.stenen;
 		assertEquals(0, resultaat);
 	}
@@ -203,7 +204,7 @@ public class VakjeTest extends TestCase {
 	public void testLoop() {
 		Vakje v = new SpeelVakje();
 		SpeelVakje s = (SpeelVakje) v;
-		s.zet();
+		s.zet(s);
 		int resultaat = v.stenen;
 		assertEquals(1, resultaat);
 	}
@@ -211,7 +212,7 @@ public class VakjeTest extends TestCase {
 	public void testSlaanUitvoerbaar() {
 		Vakje v = new SpeelVakje();
 		SpeelVakje s = (SpeelVakje) v;
-		s.zet();
+		s.zet(s);
 		boolean resultaat = v.isSlaanUitvoerbaar();
 		assertEquals(true, resultaat);
 	}
@@ -226,7 +227,7 @@ public class VakjeTest extends TestCase {
 	public void testSlaan() {
 		Vakje v = new SpeelVakje();
 		SpeelVakje s = (SpeelVakje) v;
-		s.zet();
+		s.zet(s);
 		int resultaat = v.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.stenen;
 		assertEquals(0, resultaat);
 	}
@@ -234,9 +235,9 @@ public class VakjeTest extends TestCase {
 	public void testDump() {
 		Vakje v = new SpeelVakje();
 		SpeelVakje s = (SpeelVakje) v;
-		s.zet();
+		s.zet(s);
 		int resultaat = v.volgende.volgende.volgende.volgende.volgende.volgende.stenen;
 		assertEquals(6, resultaat);
-	}*/
+	}
 }
 
