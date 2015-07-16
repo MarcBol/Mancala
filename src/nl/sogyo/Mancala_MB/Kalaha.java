@@ -17,10 +17,8 @@ public class Kalaha extends Vakje {
 		return true;
 	}
 	
-	public void dump(int aantal, Vakje vakje) {
-		
-		vakje.stenen = vakje.stenen + aantal;
-	
+	public void dump(int aantal, Vakje vakje) {		
+		vakje.stenen = vakje.stenen + aantal	
 	}
 	
 	
