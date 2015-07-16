@@ -21,4 +21,11 @@
   	<url>localhost:8080/jenkins</url>
   	<system>Jenkins</system>
   </ciManagement>
+  <dependencies>
+  	<dependency>
+  		<groupId>JUnit</groupId>
+  		<artifactId>JUnit</artifactId>
+  		<version>4.11</version>
+  	</dependency>
+  </dependencies>
 </project>
