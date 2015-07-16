@@ -1,4 +1,4 @@
-package nl.sogyo.Mancala_MB;
+package test;
 
 import junit.framework.TestCase;
 import nl.sogyo.Mancala_MB.*;

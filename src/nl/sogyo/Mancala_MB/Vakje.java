@@ -2,8 +2,8 @@ package nl.sogyo.Mancala_MB;
 
 public class Vakje {
 	
-	protected int stenen;
-	protected Vakje volgende;
+	public int stenen;
+	public Vakje volgende;
 	protected static int tellerKalaha;
 	private int stenenTotaalSpeler1;
 	private int stenenTotaalSpeler2;
@@ -96,7 +96,7 @@ public class Vakje {
 	
 	
 	
-	protected boolean isSlaanUitvoerbaar() {
+	public boolean isSlaanUitvoerbaar() {
 		if (this.stenen == 1 && tellerKalaha != 1) {
 			return true;
 		} else {

@@ -25,7 +25,7 @@ public class SpeelVakje extends Vakje {
 		volgende.ontvang(zaaiVoorraad-1, eerste);
 	}
 	
-	protected void verwijderStenen() {
+	public void verwijderStenen() {
 		zaaiVoorraad = stenen;
 		stenen = 0;
 	}

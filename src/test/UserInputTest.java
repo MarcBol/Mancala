@@ -1,5 +1,6 @@
-package nl.sogyo.Mancala_MB;
+package test;
 
+import nl.sogyo.Mancala_MB.UserInput;
 import junit.framework.TestCase;
 
 public class UserInputTest extends TestCase {
