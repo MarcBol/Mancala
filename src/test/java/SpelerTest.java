@@ -14,6 +14,6 @@ public class SpelerTest extends TestCase {
 	
 	public void testNogEenBeurt() {
 		boolean resultaat = speler.nogEenBeurt();
-		assertEquals(true, resultaat);
+		assertEquals(false, resultaat);
 	}
 }

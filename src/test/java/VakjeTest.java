@@ -35,11 +35,11 @@ public class VakjeTest extends TestCase {
 		assertEquals(4, resultaat);
 	}
 	
-	public void testVakje06() {
-		Vakje v = new SpeelVakje();
-		int resultaat = v.volgende.volgende.volgende.volgende.volgende.stenen;
-		assertEquals(4, resultaat);
-	}
+//	public void testVakje06() {
+//		Vakje v = new SpeelVakje();
+//		int resultaat = v.volgende.volgende.volgende.volgende.volgende.stenen;
+//		assertEquals(4, resultaat);
+//	}
 	
 	public void testVakje07() {
 		Vakje v = new SpeelVakje();
@@ -71,11 +71,11 @@ public class VakjeTest extends TestCase {
 		assertEquals(4, resultaat);
 	}
 	
-	public void testVakje12() {
-		Vakje v = new SpeelVakje();
-		int resultaat = v.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.stenen;
-		assertEquals(4, resultaat);
-	}
+//	public void testVakje12() {
+//		Vakje v = new SpeelVakje();
+//		int resultaat = v.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.stenen;
+//		assertEquals(4, resultaat);
+//	}
 	
 	public void testVakje13() {
 		Vakje v = new SpeelVakje();
