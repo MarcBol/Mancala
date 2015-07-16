@@ -9,7 +9,7 @@ public class Vakje {
 	private int stenenTotaalSpeler2;
 	protected boolean isEindeSpel;
 	protected int stenenKalahaSpeler1;
-	protected int stenenKalahaSpeler2;
+	protected int stenenKalahaSpeler2
 	
 	Speler speler = new Speler(); 
 	
