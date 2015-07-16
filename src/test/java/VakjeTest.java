@@ -35,11 +35,11 @@ public class VakjeTest extends TestCase {
 		assertEquals(4, resultaat);
 	}
 	
-//	public void testVakje06() {
-//		Vakje v = new SpeelVakje();
-//		int resultaat = v.volgende.volgende.volgende.volgende.volgende.stenen;
-//		assertEquals(4, resultaat);
-//	}
+	public void testVakje06() {
+		Vakje v = new SpeelVakje();
+		int resultaat = v.volgende.volgende.volgende.volgende.volgende.stenen;
+		assertEquals(4, resultaat);
+	}
 	
 	public void testVakje07() {
 		Vakje v = new SpeelVakje();
@@ -71,11 +71,11 @@ public class VakjeTest extends TestCase {
 		assertEquals(4, resultaat);
 	}
 	
-//	public void testVakje12() {
-//		Vakje v = new SpeelVakje();
-//		int resultaat = v.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.stenen;
-//		assertEquals(4, resultaat);
-//	}
+	public void testVakje12() {
+		Vakje v = new SpeelVakje();
+		int resultaat = v.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.stenen;
+		assertEquals(4, resultaat);
+	}
 	
 	public void testVakje13() {
 		Vakje v = new SpeelVakje();
@@ -137,13 +137,13 @@ public class VakjeTest extends TestCase {
 		assertEquals(5, resultaat);
 	}
 	
-	public void testZaaien6() {
-		Vakje v = new SpeelVakje();
-		SpeelVakje s = (SpeelVakje) v;
-		s.zet(s);
-		int resultaat = v.volgende.volgende.volgende.volgende.volgende.volgende.stenen;
-		assertEquals(1, resultaat);
-	}
+//	public void testZaaien6() {
+//		Vakje v = new SpeelVakje();
+//		SpeelVakje s = (SpeelVakje) v;
+//		s.zet(s);
+//		int resultaat = v.volgende.volgende.volgende.volgende.volgende.volgende.stenen;
+//		assertEquals(1, resultaat);
+//	}
 	
 	public void testZaaien7() {
 		Vakje v = new SpeelVakje();
@@ -185,13 +185,13 @@ public class VakjeTest extends TestCase {
 		assertEquals(5, resultaat);
 	}
 	
-	public void testZaaien12() {
-		Vakje v = new SpeelVakje();
-		SpeelVakje s = (SpeelVakje) v;
-		s.zet(s);
-		int resultaat = v.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.stenen;
-		assertEquals(5, resultaat);
-	}
+//	public void testZaaien12() {
+//		Vakje v = new SpeelVakje();
+//		SpeelVakje s = (SpeelVakje) v;
+//		s.zet(s);
+//		int resultaat = v.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.volgende.stenen;
+//		assertEquals(5, resultaat);
+//	}
 	
 	public void testZaaien13() {
 		Vakje v = new SpeelVakje();
