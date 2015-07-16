@@ -39,8 +39,7 @@ public class SpeelVakje extends Vakje {
 		dumpAantal = tegenover.stenen;
 		tegenover.stenen = 0;
 		vakje = getKalaha(this);
-		vakje.dump(dumpAantal, vakje);
-		
+		vakje.dump(dumpAantal, vakje);		
 	}
 	
 	public void getTegenstander() {
