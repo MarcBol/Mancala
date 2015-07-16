@@ -10,7 +10,6 @@ public class Vakje {
 	protected boolean isEindeSpel;
 	protected int stenenKalahaSpeler1;
 	protected int stenenKalahaSpeler2;
-	private string faal = "fail
 	
 	Speler speler = new Speler(); 
 	
