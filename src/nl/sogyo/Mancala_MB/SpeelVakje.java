@@ -4,7 +4,7 @@ public class SpeelVakje extends Vakje {
 	
 	private int zaaiVoorraad;
 	private static int tellerVakjes;
-	private int dumpAantal
+	private int dumpAantal;
 	
 	public SpeelVakje(int aantalVakjes, Vakje eerste) {
 		stenen = 4;
